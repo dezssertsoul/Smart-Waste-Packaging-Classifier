@@ -30,7 +30,11 @@ Model dibangun menggunakan kerangka **`tf.keras.Sequential`** dengan pendekatan 
 └── tfjs_model/             # Model untuk web browser (model.json & file .bin)
 ```
 
-## 5. Cara Menjalankan Inferensi (TF-Lite)
+## 5. Unduh Bobot Model TFLITE (*Model Weights*)
+Karena ukuran file bobot model melebihi batas unggah langsung GitHub (>25 MB), seluruh file hasil ekspor model (`model.tflite`) disimpan di Google Drive:
+- 📦 **[Download Model Weights (Google Drive)] https://drive.google.com/drive/folders/1NyKZdAs3oz7pIkomBeH9fI3tmYCig3wa?usp=sharing
+
+## 6. Cara Menjalankan Inferensi (TF-Lite)
 1. Instal seluruh dependensi melalui perintah:
    ```bash
    pip install -r requirements.txt
